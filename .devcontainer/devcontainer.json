@@ -1,0 +1,8 @@
+{
+  "name": "janken-plus",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [3000],
+  "postCreateCommand": "npm install"
+}
