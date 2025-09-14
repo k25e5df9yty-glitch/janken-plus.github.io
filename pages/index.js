@@ -2,7 +2,7 @@ import * as React from 'react';
 import { useCallback } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { Box, Button, Typography } from '@mui/material';
-import { increment } from '../store';
+import { increment } from '../features/counter/counterSlice';
 
 export default function Home() {
   const count = useSelector((state) => state.counter.value);
